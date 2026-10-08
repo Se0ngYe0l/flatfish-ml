@@ -1,0 +1,17 @@
+# Versions below are what the experiments were actually run with
+# (CUDA 11.1 build of torch). Newer versions generally work; pin if you need
+# bit-for-bit reproduction.
+torch==1.10.1
+torchvision==0.11.2
+scikit-learn==0.23.2
+numpy==1.19.2
+pandas==1.1.4
+matplotlib==3.5.0
+tqdm==4.65.2
+Pillow==10.4.0
+
+# yolo_detection only
+ultralytics==8.0.115
+opencv-python==4.10.0.84
+pycocotools
+scipy==1.4.1

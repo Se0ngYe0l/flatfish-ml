@@ -1,0 +1,33 @@
+# ── model weights & training artifacts ─────────────────────────────────────────
+*.pth
+*.pt
+*.onnx
+*.pkl
+ckpt*/
+trans_ckpt*/
+results_*/
+runs/
+fishdetect_result/
+mmdet_result/
+
+# ── data ───────────────────────────────────────────────────────────────────────
+data/
+*.csv
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.tar
+
+# ── python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# ── editors / os ───────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
